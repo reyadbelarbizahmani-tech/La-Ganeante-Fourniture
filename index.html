@@ -9,33 +9,32 @@
 
 <style>
 :root {
-  /* High-End Obsidian & Gold Theme */
-  --gold: #d4af37;        /* Metallic Gold from your logo */
-  --gold-l: #f2e0a1;      /* Bright Gold for highlights */
-  --gold-d: #8a6d1d;      /* Deep Bronze for depth */
-  
-  /* Backgrounds: Shifted to a deep, layered black */
-  --bg: #030303;          /* Total Black for a premium feel */
-  --bg2: #080808;         /* Slightly lighter for section contrast */
-  --bg3: #0d0d0d;         /* Container/Card background */
-  
-  /* Text & Interface */
-  --cream: #dfd331cc;       /* Pure white for maximum readability */
-  --cream2: #e6c719c4;      /* Light gray for secondary text */
-  --ink: #FFD700;         /* Pure black for buttons */
-  --ink2: #141414;        /* Dark accent color */
-  --ink3: #757575;        /* Muted descriptions */
-  
-  /* Decorative Lines & Shadows */
-  --line: rgba(212, 175, 55, 0.12);   /* Faint gold line */
-  --line2: rgba(212, 175, 55, 0.25);  /* Stronger gold line */
-  --shadow: rgba(0, 0, 0, 0.8);       /* Deep shadows for 3D effect */
+  /* --- High-End Obsidian Palette --- */
+  --bg: #050505;           /* Deep obsidian, not pure flat black */
+  --bg2: #0a0a0a;          /* Soft elevation for sections */
+  --bg3: #111111;          /* Subtle card contrast */
 
-  /* Global Settings */
+  /* --- The Gold Spectrum (Refined for image_74e613.jpg) --- */
+  --gold: #c5a059;         /* Muted premium gold for body text */
+  --gold-l: #e9d5a3;       /* "Highlight" gold for titles (matches the image) */
+  --gold-d: #634f2a;       /* Deep bronze for borders and shadows */
+  
+  /* --- Readability Fixes --- */
+  /* Instead of yellow-creams, use 'Champagne' and 'Silver-Grey' */
+  --cream: #ffffff;        /* Use pure white for headers to ensure maximum pop */
+  --cream2: #a1a1a1;       /* Cool grey for descriptions (stops the "yellow" overload) */
+  --accent: var(--gold-l); /* Use the bright gold for call-to-actions */
+
+  /* --- Interaction & UI --- */
+  --ink: #000000;          /* For text inside bright gold buttons */
+  --ink2: #1a1a1a;         /* For hover states */
+  --ink3: #4d4d4d;         /* Very muted text/disabled states */
+
+  /* --- Global Settings --- */
   --ff-disp: 'Cormorant Garamond', serif;
   --ff-ar: 'Noto Naskh Arabic', serif;
   --ff-ui: 'Josefin Sans', sans-serif;
-  --ease: cubic-bezier(.19,1,.22,1);
+  --ease: cubic-bezier(.19, 1, .22, 1);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
